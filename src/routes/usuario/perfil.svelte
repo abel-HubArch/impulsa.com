@@ -95,7 +95,7 @@ onAuthStateChanged(auth, async (user)=>{
             {#each productos as producto}
             <div class="producto">
                 <p>{producto.categoria}</p>
-                <h1>{producto.titulo}</h1>
+                <a href="/usuario/admin/model"><h1>{producto.titulo}</h1></a> 
                 <img src="{producto.ng_perfil}" alt="">
                 <div class="descripcion">
                     <p>{producto.descripcion}</p>
